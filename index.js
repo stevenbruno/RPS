@@ -71,3 +71,9 @@ function updateScore(winner) {
         document.getElementById('cpuScore').innerHTML = cpuScore.toString();
     }
 }
+
+
+function resetScores() {
+    document.getElementById('playerScore').innerHTML = '0';
+    document.getElementById('cpuScore').innerHTML = '0';
+}
