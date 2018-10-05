@@ -76,4 +76,5 @@ function updateScore(winner) {
 function resetScores() {
     document.getElementById('playerScore').innerHTML = '0';
     document.getElementById('cpuScore').innerHTML = '0';
+    document.getElementById('result').innerHTML = 'Go ahead, choose a hand!'
 }
