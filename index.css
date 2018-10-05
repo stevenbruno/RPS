@@ -1,0 +1,21 @@
+html {
+    background-color: #fdfdfd;
+}
+
+
+#makeYourMove {
+    font: 4em arial, sans-serif;
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+}
+
+#icons input {
+    width: 20%;
+    height: auto;
+    margin: 0 2rem 0 2rem;
+}
