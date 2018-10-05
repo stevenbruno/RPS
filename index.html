@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Rock Paper Scissors</title>
     <script src="index.js"></script>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>title</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="index.css" type="text/css">
   </head>
   <body>
-  
+    <div id="makeYourMove">
+      <p><strong>Make your move!</strong><p>
+    </div>
+    <div id="icons">
+      <input type="image" onclick="chooseRock()" src="assets/rock.png" alt="rock">
+      <input type="image" onclick="choosePaper()" src="assets/paper.png" alt="paper">
+      <input type="image" onclick="chooseScissors()" src="assets/scissors.png" alt="scissors">
+    </div>
   </body>
 </html>
